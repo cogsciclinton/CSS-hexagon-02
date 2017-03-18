@@ -1,0 +1,98 @@
+.hexagon {
+  position: relative;
+  width: 300px;
+  height: 173.21px;
+  background-color: #27b3db;
+  margin: 86.60px 0;
+  border-left: solid 8px #403d3a;
+  border-right: solid 8px #403d3a;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  width: 212.13px;
+  height: 212.13px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 42.9340px;
+}
+
+.hexagon:before {
+  top: -106.0660px;
+  border-top: solid 8px #403d3a;
+  border-right: solid 8px #403d3a;
+}
+
+.hexagon:after {
+  bottom: -106.0660px;
+  border-bottom: solid 8px #403d3a;
+  border-left: solid 8px #403d3a;
+}
+
+/*
+
+div {
+  margin-top: 150px;
+  margin-left: 500px;
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  animation: bounceIn 5s 2s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+  animation-name: bounceIn;
+  animation-duration: 5s;
+  animation-timing-function: cubic-bezier(1,.015,.295,1.225);
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: ;
+  animation-play-state: ;
+
+}
+
+
+@keyframes bounceIn {
+  0%  {
+    border-radius: 0 0 0 0;
+    background-color: red;
+    transform: rotate(0deg);
+    transform: scale(1);
+    opacity: 100;
+  }
+  38% {
+    border-radius: 50% 0 0 0;
+    background-color: orange;
+    transform: rotate(45deg);
+    transform: scale(0.38);
+    transform: perspective(17px);
+    opacity: 21;
+  }
+  50% {
+    border-radius: 50% 50% 0 0;
+    background-color: yellow;
+    transform: rotate(90deg);
+    transform: scale(0.62);
+    opacity: 100;
+  }
+  62% {
+    border-radius: 50% 50% 50% 0%;
+    background-color: green;
+    transform: rotate(135deg);
+    transform: scale(1.62);
+    transform: perspective(2100px);
+    opacity: 21;
+  }
+  100% {
+    border-radius: 50%;
+    background-color: blue;
+    transform: rotate(180deg);
+    transform: scale(1);
+    opacity: 100;
+  }
+}
+
+*/
